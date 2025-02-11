@@ -1,0 +1,26 @@
+.word {
+    color: #ef788c;
+}
+
+.first {
+    background: #661c1c;
+    height: 129px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background: #f63737;
+}
+
+.second {
+    width: 300px;
+    background-color: #b74db7;
+}
+
+.element {
+    color: #ffffff;
+    background-color: rgb(101, 48, 111);
+}
