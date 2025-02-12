@@ -1,0 +1,17 @@
+header {
+    background-color: #cd853f;
+    height: 60px;
+}
+
+.img_dog {
+    width: 200px;
+}
+
+.blockqoute_and_author {
+    background-color: #ffc664a1;
+}
+
+footer {
+    height: 300px;
+    background-color: #ef46d674;
+}
