@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 65</title>
+</head>
+<!-- Вопрос с main и section: правильно ли вообще их написала, или порядок должен быть другой именно с неймингом самих главных блоков -->
+<body>
+    <header class="header">
+        <!-- Вопрос: не лучше ли будет прописать обе ссылки в одном контейнере? (строка 11-16) -->
+        <a href="#" class="logo">
+            <img src="" alt="">
+        </a>
+        <a href="#" class="header__name">
+            Учебная империя
+        </a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <il class="nav__item">
+                    <a href="#" class="nav__link"></a>
+                </il>
+                <il class="nav__item">
+                    <a href="#" class="nav__link"></a>
+                </il>
+                <il class="nav__item">
+                    <a href="#" class="nav__link"></a>
+                </il>
+                <il class="nav__item">
+                    <a href="#" class="nav__link"></a>
+                </il>
+                <il class="nav__item">
+                    <a href="#" class="nav__link"></a>
+                </il>
+            </ul>
+        </nav>
+        <a href="+79147043666" class="header__tel">+7 (914) 704-36-66</a>
+    </header>
+    <section class="welcome">
+        <p class="welcome__premium">
+            Репетиторский центр №1 в Приморском крае
+        </p>
+        <h1 class="welcom__title">
+            Репетиторы по всем школьным предметам во всех районах Владивостока
+        </h1>
+        <p class="welcome_text">
+            Современный центр дополнительного образования с широкими возможностями
+        </p>
+        <!-- Вопрос: правильно просто subscribe или нужно section__subscribe,
+        ссылка несколько раз повторяется, не знаю как лучше написать (строка 52)-->
+        <a href="#" class="subscribe">
+            Записаться
+        </a>
+        <!-- Написала так, потому что встречается 1 раз, а не как ссылка subscribe -->
+        <a href="#" class="welcom__feedback">
+            Смотреть отзывы
+        </a>
+        <ul class="welcom__list">
+            <li class="welcom__item">
+                <p class="welcom__point">
+                    1000р в подарок за первое занятие
+                </p>
+            </li>
+            <li class="welcom__item">
+                <p class="welcom__point">
+                    Оплата материнским капиталом
+                </p>
+            </li>
+        </ul>
+        <img src="" alt="" class="welcom__img">
+    </section>
+    <main class="main">
+        <!-- Вопрос: нужно ли поместить в отдельный div все три img чтобы в дальнейшем
+        было удобно передать его в Grid для оформления и как его тогда назвать, main_img?
+        И правильно ли назвала классы для img? (строки 77-79)-->
+        <img src="" alt="" class="main__img-first">
+        <img src="" alt="" class="main__img-second">
+        <img src="" alt="" class="main__img-third">
+        <h3 class="main__title">
+            Почему выбирают нас?
+        </h3>
+        <p class="main__text"></p>
+        <ul class="main__list">
+            <li class="main__item">
+                <h4 class="main__item-title">
+                    2000 м2 +
+                </h4>
+                <p class="main__item-subtitle">
+                    Образовательного пространства
+                </p>
+            </li>
+            <li class="main__item">
+                <h4 class="main__item-title">
+                    5+
+                </h4>
+                <p class="main__item-subtitle">
+                    Филиалов
+                </p>
+            </li>
+            <li class="main__item">
+                <h4 class="main__item-title">
+                    100+
+                </h4>
+                <p class="main__item-subtitle">
+                    Кабинетов
+                </p>
+            </li>
+            <li class="main__item">
+                <h4 class="main__item-title">
+                    10+
+                </h4>
+                <p class="main__item-subtitle">
+                    Лет на рынке
+                </p>
+            </li>
+        </ul>
+        <hr>
+        <!-- Глупое название класса, не знаю как ещё можно (строка 120) -->
+        <p class="main__text-litle"></p>
+        <!-- Правильно ли прописала -reviews для списка? (строка 122-132) -->
+        <ul class="main__list-reviews">
+            <li class="main__item-reviews">
+                <img src="" alt="" class="main__item-reviews-img-1">
+            </li>
+            <li class="main__item-reviews">
+                <img src="" alt="" class="main__item-reviews-img-2">
+            </li>
+            <li class="main__item-reviews">
+                <img src="" alt="" class="main__item-reviews-img-3">
+            </li>
+        </ul>
+        <a href="#" class="subscribe">
+            Записаться
+        </a>
+        <a href="" class="whatapp">
+            <img src="" alt="" class="whatapp-img">
+        </a>
+        <!-- Также нужно ли в один блок? (строки 138-139) -->
+        <img src="" alt="" class="main__img-document">
+        <a class="main__document" href="путь/к/файлу.pdf" download></a>
+    </main>
+    <section class="quiz">
+        <h3 class="quiz__title"></h3>
+        <h5 class="quiz__subtitle"></h5>
+        <hr>
+        <!-- Не стала писать все пункты -->
+        <ul class="quiz__list">
+            <li class="quiz__item"></li>
+            <li class="quiz__item"></li>
+            <li class="quiz__item"></li>
+            <li class="quiz__item"></li>
+        </ul>
+        <button class="quiz__button-next"></button>
+    </section>
+    <section class="subjects">
+        <!-- Нужно ли title и изображение в один блок? (строки 156-157) -->
+        <h3 class="subjects__title"></h3>
+        <img src="" alt="" class="subjects__arrow">
+        <h6 class="subjects__subtitle"></h6>
+        <ul class="subjects__list">
+            <li class="subjects__item">
+                <img src="" alt="" class="subjects__background">
+                <img src="" alt="" class="subjects__icon">
+                Название предмета
+            </li>
+            <li class="subjects__item">
+                <img src="" alt="" class="subjects__background">
+                <img src="" alt="" class="subjects__icon">
+                Название предмета
+            </li>
+            <li class="subjects__item">
+                <img src="" alt="" class="subjects__background">
+                <img src="" alt="" class="subjects__icon">
+                Название предмета
+            </li>
+            <li class="subjects__item">
+                <img src="" alt="" class="subjects__background">
+                <img src="" alt="" class="subjects__icon">
+                Название предмета
+            </li>
+        </ul>
+    </section>
+    <section class="lingo">
+        <!-- Нужно в один блок? (строки 184-185) -->
+        <h3 class="lingo__title"></h3>
+        <img src="" alt="" class="lingo__arrow">
+        <h5 class="lingo__subtitle"></h5>
+            <ul class="lingo__list">
+                <li class="lingo__item">
+                    <img src="" alt="" class="lingo__item-img">
+                </li>
+                <li class="lingo__item">
+                    <img src="" alt="" class="lingo__item-img">
+                </li>
+                <li class="lingo__item">
+                    <img src="" alt="" class="lingo__item-img">
+                </li>
+            </ul>
+            <a href="#" class="subscribe">
+                Записаться
+            </a>
+            <a href="" class="whatapp">
+                <img src="" alt="" class="whatapp-img">
+            </a>
+            <img src="" alt="" class="lingo__img">
+    </section>
+    <section class="courses">
+        <ul class="courses__list">
+            <li class="courses__item">
+                <img src="" alt="" class="courses__img">
+                <h6 class="courses__title"></h6>
+                <p class="courses__text"></p>
+            </li>
+            <li class="courses__item">
+                <img src="" alt="" class="courses__img">
+                <h6 class="courses__title"></h6>
+                <p class="courses__text"></p>
+            </li>
+            <li class="courses__item">
+                <img src="" alt="" class="courses__img">
+                <h6 class="courses__title"></h6>
+                <p class="courses__text"></p>
+            </li>
+            <li class="courses__item">
+                <img src="" alt="" class="courses__img">
+                <h6 class="courses__title"></h6>
+                <p class="courses__text"></p>
+            </li>
+        </ul>
+        <a href="#" class="subscribe">
+            Записаться
+        </a>
+        <a href="" class="whatapp">
+            <img src="" alt="" class="whatapp-img">
+        </a>
+</body>
+
+</html>
